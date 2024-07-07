@@ -1,0 +1,119 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 47px;
+   margin-left: 42px;
+}
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    margin-right: 36px;
+    color: #17233d;
+    cursor: pointer; 
+}
+.button-header{
+    width: 124px;
+    height: 51px;
+    background: #6fbf44;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+.img-casal{
+    width: 495px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 121px;
+    display: inline-block;
+}
+section{
+    display: inline-block;
+    margin-left: 57px;
+}
+h1{
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    color: #161a49;
+    width: 582px;
+    margin-bottom: 47px;
+}
+p{
+    width: 493px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4b505a;
+    margin-bottom: 55px;
+}
+.link-main{
+   
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #6fbf44;
+    cursor: pointer;
+}
+
+
+/* tag  ! important= independente da ordem do comando, ela diz que esse é o mais importante, então o navegador define tal configuração como a primeira*/
+
+@media screen and (max-width: 400px){
+    header{
+        width: 100%;
+    }
+    .link-header{
+        display: none;
+    }
+    .button-header{
+        width: 91px;
+        height: 31px;
+        position: absolute;
+        top:10px;
+        margin-left: 650px;
+        font-size: 12px;
+    }
+    main{
+        width: 100%;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+        width: 278px;
+       
+        
+    }
+    p{
+        font-size: 18px;
+        width: 304px;
+        text-align: center;
+
+    }
+    .link-main{
+        font-size: 18px;
+    }
+    .img-casal{
+        display: block;
+        width: 312px;
+        height: 288px;
+       
+        
+
+    }
+
+
+}
